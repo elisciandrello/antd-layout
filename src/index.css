@@ -1,0 +1,45 @@
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 24px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.main_container {
+  display: grid;
+  height: 93.5vh;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.info_container {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: bisque;
+  height: 100%;
+  overflow-y: scroll;
+}
+.map_container {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: burlywood;
+}
+.notes_container {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: aquamarine;
+}
